@@ -269,7 +269,41 @@ const sidebars: SidebarsConfig = {
 				'suite/token/erc20gnetwork',
 				'suite/token/erc20gsupply',
 				'suite/token/extensions',
-				'suite/token/dapptoken',
+			]
+		}, 
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		{
+			type: 'category',
+			label: 'Network Management',
+			link: {
+				type: "doc",
+				id: 'suite/network/intro',
+			},
+			collapsible: false,
+			items: [
+				'suite/network/interop',
+				'suite/network/network',
+			]
+		}, 
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		{
+			type: 'category',
+			label: 'Environment',
+			link: {
+				type: "doc",
+				id: 'suite/environment/intro',
+			},
+			collapsible: true,
+			items: [
+				'suite/environment/exchangelist',
+				'suite/environment/relayerlist',
+				'suite/environment/walletlist',
 			]
 		}, 
 		{
@@ -289,42 +323,7 @@ const sidebars: SidebarsConfig = {
 				'suite/extensions/extension-defi',
 				'suite/extensions/extension-security',
 				'suite/extensions/extension-supply',
-			]
-		}, 
-		{
-			type: 'html',
-			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		},
-		{
-			type: 'category',
-			label: 'Network Management',
-			link: {
-				type: "doc",
-				id: 'suite/network/intro',
-			},
-			collapsible: false,
-			items: [
-				'suite/network/interop',
-				'suite/network/network',
-				'suite/network/dappenv',
-			]
-		}, 
-		{
-			type: 'html',
-			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		},
-		{
-			type: 'category',
-			label: 'Environment',
-			link: {
-				type: "doc",
-				id: 'suite/environment/intro',
-			},
-			collapsible: false,
-			items: [
-				'suite/environment/exchangelist',
-				'suite/environment/relayerlist',
-				'suite/environment/walletlist',
+				'suite/extensions/extension-dapp',
 			]
 		}, 
 	],

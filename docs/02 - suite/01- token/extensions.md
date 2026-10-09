@@ -1,4 +1,4 @@
-# Extension Connectors
+# ERC-cc Extension Connectors
 
 Fungible Standard is just a core framework that covers the basic necessities of a token: access, crosschan awareness and Supply Management.
 
