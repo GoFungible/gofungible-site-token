@@ -277,7 +277,7 @@ const sidebars: SidebarsConfig = {
 		},
 		{
 			type: 'category',
-			label: 'Extensions',
+			label: 'Token Extensions',
 			link: {
 				type: "doc",
 				id: 'suite/extensions/intro',

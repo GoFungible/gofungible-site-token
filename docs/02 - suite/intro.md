@@ -14,7 +14,7 @@ Included modules are below:
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN**</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN FRAMEWORK**</td>
 			</tr>
 			<tr>
 				<td><a href="https://www.fungible.design/">000</a></td>
@@ -59,28 +59,7 @@ Included modules are below:
 				<td>Fungible Standard Mutichain DAppmin</td>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**NETWORK**</td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">101</a></td>
-				<td>NETWORK</td>
-				<td>The **Interop Implementation**</td>
-				<td>Uses relayer to exchange messages and data between networks</td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-network">102</a></td>
-				<td>NETWORK</td>
-				<td>The **Fungible Network** artifacts</td>
-				<td>including **Factory**, **Environment** and **Registry**</td>
-			</tr>
-			<tr>
-				<td><a href="">103</a></td>
-				<td>ADMIN</td>
-				<td>The **DApp Env Management** Application</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**EXTENSIONS**</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN EXTENSIONS**</td>
 			</tr>
 			<tr>
 				<td><a href="">201</a></td>
@@ -137,7 +116,28 @@ Included modules are below:
 				<td></td>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**ECOSYSTEM**</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN INTEROP**</td>
+			</tr>
+			<tr>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">101</a></td>
+				<td>INTEROP</td>
+				<td>The **Interop Implementation**</td>
+				<td>Uses relayer to exchange messages and data between networks</td>
+			</tr>
+			<tr>
+				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN NETWORK**</td>
+			</tr>
+			<tr>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-network">102</a></td>
+				<td>NETWORK</td>
+				<td>The **Fungible Network** artifacts</td>
+				<td>including **Factory**, **Environment** and **Registry**</td>
+			</tr>
+			<tr>
+				<td><a href="">103</a></td>
+				<td>NETWORK</td>
+				<td>The **DApp Env Management** Application</td>
+				<td></td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/exchange-list">301</a></td>
