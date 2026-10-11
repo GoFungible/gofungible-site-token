@@ -277,41 +277,6 @@ const sidebars: SidebarsConfig = {
 		},
 		{
 			type: 'category',
-			label: 'Network Management',
-			link: {
-				type: "doc",
-				id: 'suite/network/intro',
-			},
-			collapsible: false,
-			items: [
-				'suite/network/interop',
-				'suite/network/network',
-			]
-		}, 
-		{
-			type: 'html',
-			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		},
-		{
-			type: 'category',
-			label: 'Environment',
-			link: {
-				type: "doc",
-				id: 'suite/environment/intro',
-			},
-			collapsible: true,
-			items: [
-				'suite/environment/exchangelist',
-				'suite/environment/relayerlist',
-				'suite/environment/walletlist',
-			]
-		}, 
-		{
-			type: 'html',
-			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		},
-		{
-			type: 'category',
 			label: 'Extensions',
 			link: {
 				type: "doc",
@@ -324,6 +289,41 @@ const sidebars: SidebarsConfig = {
 				'suite/extensions/extension-security',
 				'suite/extensions/extension-supply',
 				'suite/extensions/extension-dapp',
+			]
+		}, 
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		{
+			type: 'category',
+			label: 'Token Interop',
+			link: {
+				type: "doc",
+				id: 'suite/interop/intro',
+			},
+			collapsible: true,
+			items: [
+				'suite/interop/interop',
+			]
+		}, 
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		{
+			type: 'category',
+			label: 'Token Network',
+			link: {
+				type: "doc",
+				id: 'suite/network/intro',
+			},
+			collapsible: true,
+			items: [
+				'suite/network/network',
+				'suite/network/exchangelist',
+				'suite/network/relayerlist',
+				'suite/network/walletlist',
 			]
 		}, 
 	],
