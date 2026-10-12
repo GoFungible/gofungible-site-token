@@ -282,7 +282,7 @@ const sidebars: SidebarsConfig = {
 				type: "doc",
 				id: 'suite/extensions/intro',
 			},
-			collapsible: true,
+			collapsible: false,
 			items: [
 				'suite/extensions/extension-access',
 				'suite/extensions/extension-defi',
@@ -291,7 +291,7 @@ const sidebars: SidebarsConfig = {
 				'suite/extensions/extension-dapp',
 			]
 		}, 
-		{
+		/*{
 			type: 'html',
 			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
@@ -325,7 +325,7 @@ const sidebars: SidebarsConfig = {
 				'suite/network/relayerlist',
 				'suite/network/walletlist',
 			]
-		}, 
+		}, */
 	],
   /*valueSidebar: [
 		{
