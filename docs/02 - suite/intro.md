@@ -115,48 +115,6 @@ Included modules are below:
 				<td>The Checkpoint Extension</td>
 				<td></td>
 			</tr>
-			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN INTEROP**</td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">101</a></td>
-				<td>INTEROP</td>
-				<td>The **Interop Implementation**</td>
-				<td>Uses relayer to exchange messages and data between networks</td>
-			</tr>
-			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN NETWORK**</td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-network">102</a></td>
-				<td>NETWORK</td>
-				<td>The **Fungible Network** artifacts</td>
-				<td>including **Factory**, **Environment** and **Registry**</td>
-			</tr>
-			<tr>
-				<td><a href="">103</a></td>
-				<td>NETWORK</td>
-				<td>The **DApp Env Management** Application</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/exchange-list">301</a></td>
-				<td>PROVIDERS</td>
-				<td>The supporting project **Exchange List**</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/wallet-list">302</a></td>
-				<td>PROVIDERS</td>
-				<td>The supporting project **Wallet List**</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><a href="https://github.com/GoFungible/relayer-list">303</a></td>
-				<td>PROVIDERS</td>
-				<td>The supporting project **Relayer List**</td>
-				<td></td>
-			</tr>
 		</tbody>
 	</table>
 </div>
